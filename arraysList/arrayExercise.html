@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Victor NKuna">
+    <title>Joining Array</title>
+</head>
+<body>
+    
+<script>
+    const ArrayList = [
+{ id: "abdc4051", date: "2017-01-24" },
+{ id: "abdc4052", date: "2017-01-22" }
+];
+
+const array= [
+{ id: "abdc4051", name: "ab" },
+{ id: "abdc4052", name: "abc" }
+]
+
+let merged = [];
+
+for(let i=0; i<ArrayList.length; i++) {
+  merged.push({
+   ...ArrayList[i], 
+   ...(array.find((itmInner) => itmInner.id === ArrayList[i].id))}
+  );
+}
+console.log(merged);
+</script>
+</body>
+</html>

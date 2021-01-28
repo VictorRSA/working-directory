@@ -1,0 +1,22 @@
+github username:victor.nkuna@yahoo.com 
+id=VINK40130760170851@#
+
+
+second developerVictorNkuna:
+username:victor.nkuna@hotmail.com
+id=VINK40130760170A
+8-2fermENT
+8-2fermENt
+
+
+sudo systemctl status nginx
+sudo systemctl stop nginx
+service mysql stop
+sudo /opt/lampp/lampp start
+
+cd /opt/lampp
+
+sudo ./manager-linux.run (or manager-linux-x64.run)
+
+
+https://pythonprogramming.net/flask-registration-tutorial/ must follow link for FLASK

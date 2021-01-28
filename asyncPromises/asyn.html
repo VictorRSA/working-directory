@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name ="Author" content="Victor NKuna">
+    <meta name="KeyWords" content="HTML/CSS JavaScript/AJAX">
+    <title>Asynchronous</title> 
+    <link rel="stylesheet" href="asyn.css" type="text/css">
+</head>
+<body>
+    <div>
+    <form id="Login" action="form.py" method="POST">
+            <h1>HTML Forms and getting Content</h1><br />
+            <label for="fname">First Name:</label><input type="text" required placeholder="Your name.."/><br />
+            <br />
+            
+            <label for="lname">Last Name:</label><input type="text" required placeholder="Your last name.." /> <br />
+            <br />
+            <label for="pswd">Password:</label><input type="password" required  placeholder="Your password..."/> <br />
+            <br />
+            <label for="email">Email:</label><input type="email" required placeholder="E-mail.."/><br />
+            
+            <br />
+         
+            <!--make a checkbox to select gender and married or not-->
+            <label for ="male">Male:</label><input type="checkbox"id="male"  name="male" value="male" /> <br />
+            <br />
+            <label for="male">Female:</label><input type="checkbox" id="female" name="female" value="female" /><br />
+            <br />
+            <label for="other">Other:</label><input type ="checkbox" id="other" name="other" value="other"/><br />
+
+            <br />
+            <label for="Location">Province:</label>
+            <select id="province" name="geolocation">
+                <option value="Limpopo">Limpopo</option>
+                <option value="Mpumalanga">Mpumalanga</option>
+                <option value="North West">North West</option>
+                <option value="Gauteng">Gauteng</option>
+                <option value="Free State">Free State</option>
+                <option value="Northern Cape">Northern Cape</option>
+                <option value="KwaZulu Natal">KwaZulu Natal</option>
+                <option value="Eastern Caoe">Eastern Cape</option>
+                <option value="Western Capes">Western Cape</option>
+
+            </select><br />
+            <br />
+
+
+            <input type="submit" value="Submit" id="submitForm" />
+    </form>
+</div>
+
+    
+<script src="asynchPromise.js"></script>
+</body>
+</html>
